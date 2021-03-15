@@ -69,7 +69,7 @@ const vcard = 'BEGIN:VCARD\n'
 
 prefix = "#"
 name = "~ Trap Bot"
-rdaftar = "HALLO KAK MAKASIH UDH DAFTAR YAA😁"
+rdaftar = "Hola, eres mi Master, estas registrado 😉"
 rmenu = "HALLO KAK😊"
 botinfo = "MAU SEWA DONASI DLU YA KAK:)"
 limitt = 9999999999
@@ -119,7 +119,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `*[ SELAMAT DATANG DI GROUP ${mdata.subject} ]*\n*═══════════════════*\n@${num.split('@')[0]} *INTRO DULU!!!*\n*═══════════════════*\n*Jika Anda Tidak Mau Intro Silahkan Keluar Ngab*\n*═══════════════════*\n*✤ nama :*\n*✤ umur :*\n*✤ gender :*\n*✤ asal kota :*\n*✤ nama IG :*\n*✤ Ada Doi? :*\n*✤ Nama Mantan? :*\n*═══════════════════*\n*NOTE : SAVE NOMER BOT & ADMIN*\n*SEMOGA BETAH*`
+				teks = `*[ *BIENVENID@ AL GRUPO* ${mdata.subject} ]*\n*═══════════════════*\n@${num.split('@')[0]} *PUEDE PRESENTARTE!!!*\n*═══════════════════*\n*POR FABOR TOMA ASIENTO Y DISFRUTA DE UN BUEN CAFE ☕*\n*═══════════════════*\n*✤ Nombre :*\n*✤ Edad :*\n*✤ Niño o Niña: :*\n*✤ Anime favorito :*\n*✤  :*\n*✤ :*\n*✤  :*\n*═══════════════════*\n*Eso es todo* : *ESPERAMOS DISFRUTES DE TU ESTADIA*\n*uWu*`
 				let buff = await getBuffer(ppimg)
 				dms.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -184,19 +184,19 @@ async function starts() {
 				wait: '*⏳POR FAVOR ESPERE...*',
 				success: '*éxito...*',
 				error: {
-					stick: ' *𝗠𝗔𝗔𝗙 𝗧𝗘𝗥𝗝𝗔𝗗𝗜 𝗞𝗘𝗦𝗔𝗟𝗔𝗛 𝗦𝗔𝗔𝗧 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗧𝗢 𝗦𝗧𝗜𝗖𝗞𝗘𝗥*',
-					Iv: '*𝗠𝗔𝗔𝗙 𝗟𝗜𝗡𝗞 𝗧𝗜𝗗𝗔𝗞 𝗩𝗔𝗟𝗜𝗗!!*'
+					stick: ' *Lo siento, hubo un error al convertir a calcomanía.*',
+					Iv: '*PERDÓN. EL ENLACE NO ES VÁLIDO!!*'
 				},
 				only: {
-					group: '*𝗠𝗔𝗔𝗙 𝗙𝗜𝗧𝗨𝗥 𝗜𝗡𝗜 𝗛𝗔𝗡𝗬𝗔 𝗕𝗜𝗦𝗔 𝗗𝗜 𝗚𝗨𝗡𝗔𝗞𝗔𝗡 𝗗𝗜 𝗗𝗔𝗟𝗔𝗠 𝗚𝗥𝗢𝗨𝗣!*',
+					group: '*LO SENTIMOS, ESTA FUNCION SOLO SE PUEDE UTILIZAR EN GRUPOS !*',
 					benned: '*𝗠𝗔𝗔𝗙 𝗡𝗢𝗠𝗘𝗥 𝗞𝗔𝗠𝗨 𝗗𝗜 𝗕𝗔𝗡 𝗦𝗜𝗟𝗔𝗛𝗞𝗔𝗡 𝗛𝗨𝗕 𝗢𝗪𝗡𝗘𝗥 𝗨𝗡𝗧𝗨𝗞 𝗨𝗡𝗕𝗔𝗡!*',
-					ownerG: '*𝗠𝗔𝗔𝗙 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗜𝗡𝗜 𝗞𝗛𝗨𝗦𝗨𝗦 𝗢𝗪𝗡𝗘𝗥 𝗚𝗥𝗢𝗨𝗣!*',
-					ownerB: '*𝗠𝗔𝗔𝗙 𝗔𝗡𝗗𝗔 𝗧𝗜𝗗𝗔𝗞 𝗚𝗔𝗡𝗦 𝗨𝗡𝗧𝗨𝗞 𝗠𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗞𝗔𝗡 𝗙𝗜𝗧𝗨𝗥 𝗜𝗡𝗜/𝗞𝗛𝗨𝗦𝗨𝗦 𝗢𝗪𝗡𝗘𝗥* ',
-					premium: '*𝗙𝗜𝗧𝗨𝗥 𝗧𝗘𝗥𝗞𝗨𝗡𝗖𝗜!!! 𝗞𝗛𝗨𝗦𝗨𝗦 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗦𝗜𝗟𝗔𝗛𝗞𝗔𝗡 𝗖𝗛𝗔𝗧 𝗢𝗪𝗡𝗘𝗥 𝗚𝗥𝗔𝗧𝗜𝗦!!!*',
-					userB: `*Hallo Kak* ${pushname2} *Kayanya Kamu Blm Terdaftar Sebagai Teman Dark BOT*\n*Ketik ${prefix}daftar nama|umur*\n*Contoh ${prefix}daftar anker|17*`,
-					admin: '*𝗠𝗮𝗮𝗳 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗜𝗻𝗶 𝗞𝗵𝘂𝘀𝘂𝘀 𝗔𝗱𝗺𝗶𝗻 𝗚𝗿𝗼𝘂𝗽!*',
-					Badmin: '*𝗠𝗮𝗮𝗳 𝗦𝗮𝘆𝗮 𝗕𝗹𝗺 𝗝𝗮𝗱𝗶 𝗔𝗱𝗺𝗶𝗻 𝗦𝗶𝗹𝗮𝗵𝗸𝗮𝗻 𝗝𝗮𝗱𝗶𝗸𝗮𝗻 𝗦𝗮𝘆𝗮 𝗔𝗱𝗺𝗶𝗻 𝗧𝗲𝗿𝗹𝗲𝗯𝗶𝗵 𝗗𝗮𝗵𝘂𝗹𝘂:𝘃*',
-					publikG: `*𝗠𝗮𝗮𝗳 𝗕𝗼𝘁 𝗦𝗲𝗱𝗮𝗻𝗴 𝗣𝗲𝗿𝗯𝗮𝗶𝗸𝗮𝗻!!!*\n*𝗨𝗻𝘁𝘂𝗸 𝗜𝗻𝗳𝗼 𝗟𝗲𝗯𝗶𝗵 𝗝𝗲𝗹𝗮𝘀𝗻𝘆𝗮 𝗞𝗲𝘁𝗶𝗸*\n*${prefix}infobot*`
+					ownerG: '*LO SENTIMOS, ESTE COMANDO ES ESPECIAL PARA EL GRUPO PROPIETARIO!*',
+					ownerB: '*LO SENTIMOS, NO PUEDE UTILIZAR LA FUNCIÓN, ESPECÍFICO DEL PROPIETARIO* ',
+					premium: '*CARACTERÍSTICAS BLOQUEADAS !!! PREMIUM ESPECIAL POR FAVOR CHATEA CON EL PROPIETARIO GRATIS!!!*',
+					userB: `*Holis, uWu* ${pushname2} *Creo que no te has registrado como amigo de Trapito Bot*\n*Escribe ${prefix}daftar nama|umur*\n*Ejemplo ${prefix}daftar anker|17*`,
+					admin: '*LO SENTIMOS ESTE COMANDO ESPECIAL, GRUPO ADMINISTRADOR!*',
+					Badmin: '*Lo siento, soy miembro, no administrador. v:*',
+					publikG: `*Lo sentimos Bot está en construcción!!!*\n*Para obtener más detalles, escriba*\n*${prefix}infobot*`
 				}
 			}
 
