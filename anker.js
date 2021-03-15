@@ -1,6 +1,6 @@
 /*
 * Tambahin nama author lah
-* Author MhankBarBar, Farhan
+* Author Lol, Farhan
 * Tambahin ya Cape Gan ngefix² Yg Ga work
 * Jan numpang nama doank
 
@@ -68,7 +68,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 
 prefix = "#"
-name = "~ DARK BOT"
+name = "~ Trap Bot"
 rdaftar = "HALLO KAK MAKASIH UDH DAFTAR YAA😁"
 rmenu = "HALLO KAK😊"
 botinfo = "MAU SEWA DONASI DLU YA KAK:)"
@@ -129,7 +129,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonaraaa @${num.split('@')[0]} Jangan Balek Lagi Ngab:v`
+				teks = `Adios @${num.split('@')[0]} Y no vuelvas:v`
 				let buff = await getBuffer(ppimg)
 				dms.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -181,8 +181,8 @@ async function starts() {
 			
 
 			mess = {
-				wait: '*⏳ 𝗪𝗔𝗜𝗧 𝗦𝗘𝗗𝗔𝗡𝗚 𝗗𝗜 𝗣𝗥𝗢𝗦𝗘𝗦 𝗦𝗜𝗟𝗔𝗛𝗞𝗔𝗡 𝗧𝗨𝗡𝗚𝗚𝗨...*',
-				success: '*𝗦𝗨𝗖𝗖𝗘𝗦...*',
+				wait: '*⏳POR FAVOR ESPERE...*',
+				success: '*éxito...*',
 				error: {
 					stick: ' *𝗠𝗔𝗔𝗙 𝗧𝗘𝗥𝗝𝗔𝗗𝗜 𝗞𝗘𝗦𝗔𝗟𝗔𝗛 𝗦𝗔𝗔𝗧 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗧𝗢 𝗦𝗧𝗜𝗖𝗞𝗘𝗥*',
 					Iv: '*𝗠𝗔𝗔𝗙 𝗟𝗜𝗡𝗞 𝗧𝗜𝗗𝗔𝗞 𝗩𝗔𝗟𝗜𝗗!!*'
