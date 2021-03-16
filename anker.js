@@ -64,7 +64,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:DARK BOT\n'
             + 'ORG:Owner Gans;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
+            + 'TEL;type=CELL;type=VOICE;waid=56952086829:+56 9 5208 6829\n'
             + 'END:VCARD'
 
 prefix = "#"
@@ -75,7 +75,7 @@ botinfo = "MAU SEWA DONASI DLU YA KAK:)"
 limitt = 9999999999
 memberLimit = 2
 ban = ["6283806369677@s.whatsapp.net"]
-premium = ["6281368646011@s.whatsapp.net"]
+premium = ["56952086829@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -201,7 +201,7 @@ async function starts() {
 			}
 
 			const botNumber = dms.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["56952086829@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await dms.groupMetadata(from) : ''
@@ -456,7 +456,7 @@ async function starts() {
 					me = dms.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/6281368646011\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/anker_2412\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https://github.com/Fxc7/termux-bot-wa`
+					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/56952086829\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/anker_2412\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https://github.com/Fxc7/termux-bot-wa`
 					buffer = await getBuffer(me.imgUrl)
 					dms.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break 
@@ -1146,7 +1146,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    dms.sendMessage('6281368646011@s.whatsapp.net', options, text, {quoted: mek})
+                    dms.sendMessage('56952086829@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case prefix+'request':
@@ -1162,7 +1162,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    dms.sendMessage('6281368646011@s.whatsapp.net', options, text, {quoted: mek})
+                    dms.sendMessage('56952086829@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case prefix+'memeindo':
