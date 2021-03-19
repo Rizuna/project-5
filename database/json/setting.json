@@ -1,6 +1,6 @@
 {
     "Grupo": "https://chat.whatsapp.com/J1Oi2ZAnQPrASBpMHautl6",
     "yt": "https://youtube.com/channel/UCaBnlMusKlEb-Bns8HUQMBw",
-    "memberLimit": 5,
-    "groupLimit": 5
+    "memberLimit": 50,
+    "groupLimit": 50
   }
